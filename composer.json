@@ -1,0 +1,27 @@
+{
+    "name": "sarsport/sarsport-user-bundle",
+    "description": "Extend FosUserBundle",
+    "type": "symfony-bundle",
+    "keywords": ["sport", "application", "rogaining"],
+    "homepage": "https://github.com/SarSport/SarSportUserBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Petrov aka fightmaster",
+            "email": "old.fightmaster@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": ">=2.1,<2.2-dev",
+        "symfony/form": ">=2.1,<2.2-dev",
+        "friendsofsymfony/user-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "SarSport\\Bundle\\UserBundle": ""
+        }
+    },
+    "target-dir": "SarSport/Bundle/UserBundle"
+}
