@@ -22,14 +22,6 @@ class SexType extends AbstractType
     }
 
     /**
-     * {@inheritdoc}
-     */
-    public function getDefaultOptions(array $options)
-    {
-        return array('choices'=> array(1=>'fos_user_registration_form_sex_man', 2=>'fos_user_registration_form_sex_woman'));
-    }
-
-    /**
      * {@inheritDoc}
      *
      * @param OptionsResolverInterface $resolver
@@ -38,7 +30,7 @@ class SexType extends AbstractType
     {
         $resolver->setDefaults(array(
                 'choices'=> array(
-                    1=>'fos_user_registration_form_sex_man', 2=>'fos_user_registration_form_sex_woman'
+                    1=>'form.sex_man', 2=>'form.sex_woman'
                 )
             )
         );

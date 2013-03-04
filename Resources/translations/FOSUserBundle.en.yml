@@ -1,7 +1,8 @@
-fos_user_registration_form_firstName: "First Name:"
-fos_user_registration_form_lastName: "Last Name:"
-fos_user_registration_form_secondName: "Second Name:"
-fos_user_registration_form_birthday: "Birthday:"
-fos_user_registration_form_sex: "Sex:"
-fos_user_registration_form_sex_man: man
-fos_user_registration_form_sex_woman: woman
+form:
+    firstName: "First Name:"
+    lastName: "Last Name:"
+    secondName: "Second Name:"
+    birthday: "Birthday:"
+    sex: "Sex:"
+    sex_man: man
+    sex_woman: woman
