@@ -5,7 +5,7 @@
 
 namespace SarSport\Bundle\UserBundle\Entity;
 
-use FOS\UserBundle\Entity\Group as BaseGroup;
+use FOS\UserBundle\Model\Group as BaseGroup;
 
 /**
  * @author Dmitry Petrov aka fightmaster <old.fightmaster@gmail.com>
